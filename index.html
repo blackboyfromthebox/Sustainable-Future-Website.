@@ -1,37 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sustainable Future</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sustainable Future Website</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to the Sustainable Future Website!</h1>
-        <p>Your guide to a greener, more eco-friendly world.</p>
-    </header>
+  <header>
+    <h1>Welcome to the Sustainable Future Project</h1>
+    <p>Your guide to making the world a greener place!</p>
+  </header>
 
-    <section id="sustainability-tips">
-        <h2>Sustainability Tips</h2>
-        <ul>
-            <li>Save water by fixing leaks.</li>
-            <li>Use reusable bags to reduce plastic waste.</li>
-            <li>Switch to energy-efficient appliances.</li>
-            <li>Plant trees to improve air quality.</li>
-        </ul>
+  <main>
+    <!-- Section for Random Sustainability Tips -->
+    <section id="tips-section">
+      <h2>Get Random Sustainability Tips</h2>
+      <p id="tip">Click the button below to get a new sustainability tip!</p>
+      <button onclick="showTip()">Get Tip</button>
     </section>
 
-    <section id="random-tip">
-        <h3>Get a Random Sustainability Tip</h3>
-        <button id="get-tip-button">Get Tip</button>
-        <p id="tip-display"></p>
+    <!-- New Section: About the Project -->
+    <section id="about-project">
+      <h2>About This Project</h2>
+      <p>This project is designed to raise awareness about sustainable practices. It provides actionable tips to help individuals reduce their carbon footprint and live a more eco-friendly lifestyle.</p>
+      <button onclick="showMoreInfo()">Read More</button>
+      <p id="more-info" style="display:none;">By incorporating these tips into our daily lives, we can collectively make a significant impact on the planet. The project is free, simple, and accessible to everyone!</p>
     </section>
 
-    <footer>
-        <p>Made with ❤️ for a better future!</p>
-    </footer>
+    <!-- New Section: Why Sustainability Matters -->
+    <section id="why-sustainability">
+      <h2>Why Does Sustainability Matter?</h2>
+      <p>Sustainability is essential for protecting our planet for future generations. Here are a few reasons why:</p>
+      <ul>
+        <li>It ensures a healthier planet by reducing pollution and conserving resources.</li>
+        <li>It promotes biodiversity by protecting natural habitats.</li>
+        <li>It combats climate change through renewable energy and reduced waste.</li>
+      </ul>
+    </section>
 
-    <script src="script.js"></script>
+    <!-- New Section: How You Can Contribute -->
+    <section id="how-to-contribute">
+      <h2>How You Can Contribute</h2>
+      <p>There are many ways to join the movement for a sustainable future:</p>
+      <ul>
+        <li>Adopt eco-friendly practices in your daily life.</li>
+        <li>Share this website with your friends and family.</li>
+        <li>Volunteer in environmental campaigns and initiatives.</li>
+        <li>Educate others about the importance of sustainability.</li>
+      </ul>
+      <button onclick="alert('Thank you for being part of the solution!')">Get Involved</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Sustainable Future Project. Created by Jasim Ali.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
